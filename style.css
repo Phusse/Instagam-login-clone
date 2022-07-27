@@ -82,6 +82,10 @@ input::placeholder{
     text-align: center;
     margin-top: 40px;
  }
+ .facebook img{
+    width: 15px;
+    height: 15px;
+ }
  .forgot{
     text-align: center;
     padding-top: 20px;
