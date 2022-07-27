@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-top: 150px;
+    background-color: rgb(250, 250, 250);
+}
+.container{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    background-color: rgb(250, 250, 250);
+}
+.left{
+    width: 50%;
+    text-align: right;
+}
+.left img{
+    height:  70vh;
+}
+.right{
+    width: 50%;
+}
+.right img{
+    width: 200px;
+    height: 60px;
+}
+.inner-right{
+    width: 80%;
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+.img-insta{
+    text-align: center;
+    padding-top: 50px;
+}
+input{
+    display: block;
+    padding-left: 10px;
+    width: 260.2px;
+    height: 36px;
+    margin: 20px auto;
+    background-color: rgba(188, 188, 188, 0.085);
+    border: 0.5px solid rgb(214, 214, 214);
+}
+input::after{
+    border: 1px solid rgb(214, 214, 214);
+}
+input::placeholder{
+    padding-left: 5px;
+}
+.btn{
+    text-align: center;
+}
+.n-button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 75%;
+    height: 33px;
+    background-color: rgb(0, 149, 246);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+}
+.n-button:hover{
+    background-color: rgb(4, 128, 211);
+    cursor: pointer;
+}
+
+ .facebook a{
+    color: rgb(56, 81, 133);
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    padding-bottom: 20px;
+ }
+ .facebook{
+    text-align: center;
+    margin-top: 40px;
+ }
+ .forgot{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+ .forgot a{
+    color: rgb(56, 81, 133);
+    text-decoration: none;
+    font-size: 15px;
+ }
+ .other-right{
+    width: 80%;
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+ }
+ .dont{
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+ }
+ .dont a{
+    color: rgb(0, 178, 249);
+    text-decoration: none;
+    font-weight: 700;
+ }
+ @media screen and (max-width: 1300px) {
+    .container{
+        width: 100%;
+        margin: auto;
+        background-color: rgb(250, 250, 250);
+    }
+ }
+ @media screen and (max-width: 920px) {
+    .container{
+        display: block;
+    }
+    .left{
+        display: none;
+    }
+    .right{
+        width: 50%;
+        margin: auto;
+    }
+    .n-button{
+        width: 78%;
+    }
+    .btn{
+        text-align: center;
+    }
+ }
+ @media screen and (max-width: 720px) {
+    .right{
+        width: 80%;
+    }
+ }
+ @media screen and (max-width: 500px) {
+    body{
+        margin-top: 50px;
+    }
+    .right{
+        width: 100%;
+    }
+    .n-button{
+        width: 85%;
+    }
+ }
+ @media screen and (max-width: 380px) {
+    input{
+        width: 90%;
+    }
+    .dont{
+        font-size: 15px;
+    }
+ }
